@@ -19,7 +19,7 @@
 
 
 
-<!--<font size=15> Correspondence-Free Nonrigid Point Set Registration Using Unsupervised Clustering Analysis (Highlight) <font size=15>-->
+<!--<font size=15> Nonrigid Point Set Registration Using Unsupervised Cluster Analysis (Highlight) <font size=15>-->
 
 ![](./fig/CVPR_Teaser.jpg)
 ### [Project Page](https://zikai1.github.io/pub/CluReg/index.html) | [Paper](https://arxiv.org/abs/2406.18817) | [Poster](https://zikai1.github.io/slides/CVPR24_Creg_poster.pdf)
@@ -31,7 +31,7 @@ This repository contains the official implementation of our CVPR 2024 paper "Cor
 Non-rigid point set registration is to optimize a non-linear displacement field that accurately aligns one geometric shape with another. However, given two point sets, one acting as the source and the other as the target, non-rigid registration presents a highly ill-posed and much more complex challenge compared to the rigid counterpart. This increased complexity is primarily attributed to the additional freedom of deformations allowed in non-rigid registration, especially when dealing with shapes that exhibit large deformations. Previous approaches typically perform shape matching first and then estimate the alignment transformation based on the established correspondences via off-the-shelf registration techniques. Nevertheless, shape matching itself has many outliers that may deteriorate registration. To address this problem, we explore a direct registration method for handling large deformations, without relying on shape matching.
 
 ## Implementation
-- For convenience, the repository provides both **MATLAB** and **C++** implementations. 
+- For convenience, the repository provides **MATLAB**, **Python**, and **C++** implementations. 
 - The MATLAB implementation is extremely **simple**, while C++ implementation is much **faster**.
 
 
